@@ -14,5 +14,5 @@
     #include "../TR-mbed6/Engineer/mainThreadless.cpp"
 #endif
 #ifdef TEST_BENCH
-    #include "../TR-mbed6/Test Bench/main.cpp"
+    #include "../TR-mbed6/Test_Bench/main.cpp"
 #endif
