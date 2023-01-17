@@ -33,6 +33,8 @@ Adding new mains is fairly simple, all it needs is a main in the TR-mbed6 folder
 ## Environment Installation Instructions
 
 First, you need to clone both the TR-mbed6 repo and the TR-Project-CORE into your projects folder. 
+
+
 `git clone https://github.com/Triton-Robotics/TR-mbed6`
 
 `git clone https://github.com/pknessness/TR-Project-CORE`
