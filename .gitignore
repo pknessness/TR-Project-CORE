@@ -1,3 +1,7 @@
 .mbedbuild
 cmake_build/
 mbed-os/
+
+mbed-os
+mbed-os.lib
+mbed_app.json
