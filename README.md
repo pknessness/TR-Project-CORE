@@ -34,16 +34,17 @@ Adding new mains is fairly simple, all it needs is a main in the TR-mbed6 folder
 
 First, you need to clone both the TR-mbed6 repo and the TR-Project-CORE into your projects folder. 
 
-
 `git clone https://github.com/Triton-Robotics/TR-mbed6`
 
 `git clone https://github.com/pknessness/TR-Project-CORE`
 
 Both need to be done from the same location, they need to be in the same directory.
 
-Once this has been done, you need to go into the TR-Project-CORE folder and run `mbed-tools new .`
+Once this has been done, you need to go into the TR-Project-CORE folder.
+
+Remove the two files `mbed-os.lib` and `mbed_app.json` and the folder `mbed-os`
+
+Then run `mbed-tools new .`
 This will override the main, so you just have to copy and paste from the above excerpt and put it back into the main.cpp
-
-
 
 Then, you should be done and able to run code.
